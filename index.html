@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing-Page-Arquitetura</title>
+</head>
+
+<body>
+
+
+    <!--Menu-Superior-->
+    <div id="menu-superior">
+        <h1 id="titulo-menu-superior">Tradição em projetos de arquitetura</h1>
+        <p id="texto-menu-superior"> Arquitetura residencial e comercial. </p>
+
+    </div>
+
+<!--Informtivos-->
+    <div id="informativos" > 
+        <img  id="impreendimentos" class="iconeinformativo"  src="./informativos/impreendimentos-construidos.svg" alt="">
+        <img  id="experiencia"  class="iconeinformativo" src="./informativos/experiencia.svg" alt="">
+        <img id="projetos"  class="iconeinformativo" src="./informativos/projeto.svg" alt="">
+    
+    </div>
+    
+    <!--Seção-Informativa-->
+     <div id="secao-informativa">
+        <img id="imagem-texto"  class="secaoinformativa" src="./imagens/imagem-texto.svg" alt="ERROR">
+        <img id="imagem-ilustrativa"  class="secaoinformativa"  src="./imagens/imagem.svg" alt="ERROR">
+             
+    </div>
+     
+    <!--Formulario-->
+    <div id="formulario">
+        <h1 id="titulo-formulario"> Conheça mais sobre nossos serviços:</h1><br><br>
+        <form id="form" action="https://api.sheetmonkey.io/form/i961bT4QvhyPQmNM6RwEin" method="post">
+            <input class="guiaformulario" type="text"  placeholder="Nome"   name="Name" required><br><br>
+            <input  class="guiaformulario" type="email"  placeholder="Email" name="Email" required><br> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button  class="guiaformulario"  type="submit" >  Fale Conosco</button>
+        </form>
+    
+    </div>
+        
+    <script src="index.js"></script>
+    
+</body>
+</html>
